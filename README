@@ -48,6 +48,7 @@ Installation
 
 - Install missing prequisites.
 - Clone git into your webserver folder.
+- Edit the config.php to your needs. Use a hostname, that is useable for all clients in your local net!
 - Give the webserver permissions to write into the folder "tmpdata".
 
 DONE, enjoy!

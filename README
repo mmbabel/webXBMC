@@ -1,0 +1,54 @@
+webXBMC
+---------------
+
+webXBMC is a webinterface for XBMC with PVR Support.
+
+Communication to XBMC is done with xbmc-php-rpc from Karl Rixon <karl@karlrixon.co.uk>.
+
+Jura was designed by Daniel Johnson.  Please send any bug reports or glyph
+requests to il.basso.buffo@gmail.com.
+
+Copyright
+---------------
+
+webXBMC is copyright 2011 Milan Babel <overflowed@gmail.com>
+xbmc-php-rpc is copyright © 2011 Karl Rixon <karl@karlrixon.co.uk>
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+The Jura fonts are licensed under the Open Font License. As of version 2.5 of
+this font family, there is no longer a Reserved Name clause for the Jura fonts,
+enabling the free conversion between font formats.
+
+The glyphs in the Kayah Li range (U+A900 - U+A92F) are dual-licensed under the
+Open Font License and the GNU Public License, version 3, with the Font
+Exception. These glyphs are also included in FreeMono, which is part of
+the GNU FreeFont project (http://www.gnu.org/software/freefont/), as of the
+20100919 release.
+
+Prerequisites
+---------------
+
+- XBMC, for "Live TV" and "Recordings" you need a version after https://github.com/xbmc/xbmc/commit/be4caba60b71739a22312d8382da2950cbdfac8a
+- Webserver with php5, php-curl (needed for xbmc-php-rpc and EPG) and php-sqlite (needed for EPG)
+
+Installation
+---------------
+
+- Install missing prequisites.
+- Clone git into your webserver folder.
+- Give the webserver permissions to write into the folder "tmpdata".
+
+DONE, enjoy!
+

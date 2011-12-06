@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'JuraDemiBold';
+    src: url('jura-demibold-webfont.eot');
+    src: url('jura-demibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('jura-demibold-webfont.woff') format('woff'),
+         url('jura-demibold-webfont.ttf') format('truetype'),
+         url('jura-demibold-webfont.svg#JuraDemiBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'JuraMedium';
+    src: url('jura-medium-webfont.eot');
+    src: url('jura-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('jura-medium-webfont.woff') format('woff'),
+         url('jura-medium-webfont.ttf') format('truetype'),
+         url('jura-medium-webfont.svg#JuraMedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+	font-family: JuraMedium;
+	background-color: #000000;
+	width: 100%;
+}
+
+.item {
+	background-color: #ffffff;
+	margin-top: 10px;
+}
+
+.watched {
+	z-index: 1;
+	position: absolute;
+	width: 50px;
+	height: 50px;
+}
+
+.dsc {
+	overflow: scroll;
+	padding-left: 5px;
+}
+
+.banner_item {
+ 	width: 100%;
+ 	margin-top: 10px;
+ 	cursor: hand;
+}
+
+.banner_item img{
+	width: 100%;
+}
+
+#tv {
+	background-image: url('../img/tv.png');
+}
+
+#recordings {
+	background-image: url('../img/recordings.png');
+}
+
+#tv_shows {
+	background-image: url('../img/tv_shows.png');
+}
+
+#movies {
+	background-image: url('../img/movies.png');
+}
+
+#remote {
+	background-image: url('../img/remote.png');
+}

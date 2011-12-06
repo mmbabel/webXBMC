@@ -1,0 +1,77 @@
+body {
+	margin: 0px;
+}
+
+.prevIMG img {
+	height: 200px;
+}
+
+.prevIMG{
+	height: 200px;
+	float: left;
+}
+
+.dsc {
+	height: 200px;
+}
+
+.dsc span {
+	font-size: 20pt;
+}
+
+.topmenu {
+	background-size: 100%;
+	width: 200px;
+	height: 200px;
+	margin: 5px;
+	float: left;
+	cursor: hand;
+}
+
+.item {
+	width: 48%;
+	float: left;
+	margin-left: 10px;
+	cursor: hand;
+}
+
+.topmenu font {
+	position: relative;
+	font-size: 28pt;
+	top: 5%;
+}
+
+/** small remote **/
+#sremote img {
+	width: 100px;
+	height: 100px;
+	cursor: hand;
+}
+
+#sremote {
+	position: fixed;
+	background-color: black;
+	margin: 0px;
+	padding: 0px;
+	z-index: 5;
+	width: 100%;
+	top: 0px;
+	height: 100px;
+}
+
+#seperator {
+	top: 100px;
+	position: fixed;
+	width: 100%;
+	height: 15px;
+	background-image: url('../img/grad.png');
+	z-index: 5;
+}
+
+.dsc {
+	margin-top: 5px;
+}
+
+#placeholder {
+	height: 130px;
+}

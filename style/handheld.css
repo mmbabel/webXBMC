@@ -1,0 +1,89 @@
+/** Movie Entrys **/
+.prevIMG img {
+	max-width: 150px;
+	max-height: 150px;
+}
+
+.item {
+ 	max-height: 150px;
+ 	overflow: hidden;
+}
+
+.prevIMG {
+	float:left;
+	max-height: 150px;
+	
+}
+
+.dsc {
+	max-height: 150px;
+	font-size: 8pt;
+}
+
+.dsc span {
+	font-size: 24pt;
+	margin-left: 10px;
+}
+
+/** small remote **/
+#sremote img {
+	width: 75px;
+	height: 75px;
+}
+
+#sremote {
+	position: fixed;
+	background-color: black;
+	margin: 0px;
+	padding: 0px;
+	z-index: 5;
+	width: 100%;
+	top: 0px;
+	height: 75px;
+}
+
+#seperator {
+	top: 75px;
+	position: fixed;
+	width: 100%;
+	height: 15px;
+	background-image: url('../img/grad.png');
+	z-index: 5;
+}
+
+#placeholder {
+	height: 90px;
+}
+
+/** body **/
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #000000;
+}
+
+/** Startpage **/
+.topmenu {
+	position: relative;
+	background-size: 100%;
+	width: 110px;
+	height: 110px;
+	margin: 5px;
+	float: left;
+}
+
+.topmenu font {
+	position: relative;
+	top: 120px;
+	font-size: 16pt;
+	visibility: hidden;
+}
+
+/** remote **/
+
+.remote_btn {
+	width: 75px;
+	height: 75px;
+	margin: 5px;
+}
